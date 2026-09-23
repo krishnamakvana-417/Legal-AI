@@ -1,0 +1,54 @@
+# ─── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+python-dotenv==1.0.1
+
+# ─── Pydantic Settings ─────────────────────────────────────────────────────────
+pydantic==2.8.2
+pydantic-settings==2.4.0
+
+# ─── Google Drive ──────────────────────────────────────────────────────────────
+gdown==5.2.0
+google-api-python-client==2.140.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# ─── PDF Processing ────────────────────────────────────────────────────────────
+pdfplumber==0.11.4
+pypdf==4.3.1
+
+# ─── Text Splitting / LangChain ────────────────────────────────────────────────
+langchain-text-splitters==0.3.0
+langchain-core==0.3.0
+
+# ─── Embeddings & Vector DB ────────────────────────────────────────────────────
+sentence-transformers==3.1.1
+chromadb==0.5.15
+# PyTorch CPU-only for embedding (saves disk space); GPU users: remove +cpu suffix
+torch==2.4.1
+transformers==4.44.2
+
+# ─── OpenAI Client ─────────────────────────────────────────────────────────────
+openai==1.47.0
+
+# ─── Graph Processing ──────────────────────────────────────────────────────────
+networkx==3.3
+
+# ─── Async HTTP Client ─────────────────────────────────────────────────────────
+httpx==0.27.2
+cachetools==5.5.0
+
+# ─── Data Science Utils ────────────────────────────────────────────────────────
+pandas==2.2.3
+numpy==1.26.4
+tqdm==4.66.5
+
+# ─── Logging & CLI ─────────────────────────────────────────────────────────────
+loguru==0.7.2
+rich==13.8.1
+
+# ─── Testing ───────────────────────────────────────────────────────────────────
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
